@@ -4,4 +4,8 @@ namespace CO.CDP.OrganisationApp.Pages;
 
 public class ErrorModel : PageModel
 {
+static ErrorModel()
+    { 
+    throw new Exception("ErrorModel class loaded - throwing exception."); 
+    }
 }
